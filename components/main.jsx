@@ -14,7 +14,7 @@ const Main = () => {
             Your destination for comprehensive auto care. Specializing in
             maintenance and repairs to keep you on the road.
           </p>
-          <div className="flex items -center justify-between max-w-[330px] m-auto py-4">
+          <div className="flex items -center justify-between max-w-[330px] m-auto py-2">
             <a href="https://www.google.com/search?channel=fs&client=ubuntu-sn&q=zeli+automotive#lrd=0x882b449f9eada4e7:0xee2f7dee43e4e9aa,1">
               <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in-duration-300">
                 <AiFillReconciliation />

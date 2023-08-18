@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import logo from "../public/assets/logo.jpg"
+import logo from "../public/assets/logo.png"
 import { link } from "fs";
 
 export const footerLinks = [
