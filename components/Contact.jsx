@@ -1,12 +1,8 @@
 import React from "react";
-import map from "./map";
 
-const contact = () => {
+const Contact = () => {
   return (
-    <div
-      id="contact"
-      className="w-full md:h-screen p-2 flex items-center py-16"
-    >
+    <div id="contact" className="w-full md:h-screen flex items-center py-8">
       <div className="max-w-[1240px] m-auto md:grid grid-cols-3 gap-8">
         <div className="col-span-2">
           <h2 className="py-4 uppercase text-xl tracking-widest">
@@ -19,11 +15,11 @@ const contact = () => {
           </p>
         </div>
         <div className="w-full h-auto m-auto shadow-xl rounded-xl flex items-center p-4 hover:scale-105 ease-in duration-300 grid-cols-6">
-          <map />
+          <isLoaded />
         </div>
       </div>
     </div>
   );
 };
 
-export default contact;
+export default Contact;

@@ -1,9 +1,10 @@
-import Navbar from "../../components/navbar";
-import Main from "../../components/main";
-import Footer from "../../components/footer";
-import About from "../../components/about";
-import Contact from "../../components/contact";
+import Navbar from "../../components/Navbar";
+import Main from "../../components/Main";
+import Footer from "../../components/Footer";
+import About from "../../components/About";
+import Contact from "../../components/Contact";
 import link from "next/link";
+import "./globals.css";
 
 export default function Home() {
   return (

@@ -1,12 +1,18 @@
 import Link from "next/link";
 import React from "react";
+import Image from "next/image";
+import bgImage from "../public/assets/zeli-automotive-bg.jpg";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { AiFillReconciliation } from "react-icons/ai";
 import { AiFillInstagram } from "react-icons/ai";
 
 const Main = () => {
   return (
-    <div id="home" className="w-full h-screen text-center">
+    <div
+      id="home"
+      className="w-full h-screen text-center"
+      style={{ backgroundImage: `url(${bgImage})` }}
+    >
       <div className="max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center">
         <div>
           <h1 className="py-4 text-[#000000] ">Zeli Automotive</h1>
