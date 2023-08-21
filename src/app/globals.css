@@ -1,29 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @layer base {
   body {
-    @apply bg-[#ffffff] text-[#000000] tracking-wide
+    @apply bg-[#ffffff] text-[#000000] tracking-wide;
   }
-  
-  h1, h2, h3, h4, h5, h6 {
-    @apply font-bold
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-bold;
   }
 
   h1 {
-    @apply text-4xl sm:text-5xl md:text-6xl font-[Raleway]
+    @apply text-4xl sm:text-5xl md:text-6xl font-[Raleway];
   }
 
   h2 {
-    @apply text-3xl sm:text-4xl
+    @apply text-3xl sm:text-4xl;
   }
-  
+
   li {
-    @apply cursor-pointer
+    @apply cursor-pointer;
   }
 
   button {
-    @apply shadow-xl shadow-gray-400 rounded-xl uppercase bg-gradient-to-r from-[#5651e5] to-[#709dff] text-white
+    @apply shadow-xl shadow-gray-400 rounded-xl uppercase bg-gradient-to-r from-[#5651e5] to-[#709dff] text-white;
   }
+}
+
+.footer {
+  @apply flex flex-col text-[#000000] mt-5 border-t border-gray-100;
+}
+
+.footer__links-container {
+  @apply flex max-md:flex-col flex-wrap justify-between gap-5 sm:px-16 px-6 py-10;
+}
+
+.footer__rights {
+  @apply flex flex-col justify-start items-start gap-6;
+}
+
+.footer__links {
+  @apply flex-1 w-full flex md:justify-end flex-wrap max-md:mt-10 gap-20;
+}
+
+.footer__link {
+  @apply flex flex-col gap-6 text-base min-w-[170px];
+}
+
+.footer__copyrights {
+  @apply flex justify-between items-center flex-wrap mt-10 border-t border-gray-100 sm:px-16 px-6 py-10;
+}
+
+.footer__copyrights-link {
+  @apply flex-1 flex sm:justify-end justify-center max-sm:mt-4 gap-10;
 }

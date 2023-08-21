@@ -1,16 +1,16 @@
 import Image from "next/image";
 import Link from "next/link";
-import logo from "../public/assets/logo.png"
+import logo from "../public/assets/logo.png";
 import { link } from "fs";
 
 export const footerLinks = [
   {
     title: "About",
     links: [
-      { title: "How it works", url: "#about" },
+      { title: "Schedule Appointment", url: "#contact" },
       {
-        title: "Featured",
-        url: "https://www.instagram.com/zeliautomotive/?hl=en ",
+        title: "Reviews",
+        url: "https://www.yellowpages.ca/bus/Ontario/Oakville/Zeli-Automotive/101311008.html",
       },
     ],
   },
@@ -31,7 +31,7 @@ const Footer = () => {
       <div className="flex max-dm:flex-col flex-wrap justify-between gap-5 sm:px-16 px-6 py-10">
         <div className="flex flex-col justify-start items-start gap-6">
           <Image
-            src= {logo}
+            src={logo}
             alt="logo"
             width={118}
             height={18}
