@@ -1,6 +1,27 @@
+"use client";
 import React from "react";
+import { useMemo } from "react";
+import { GoogleMap, useLoadScript, Marker } from "@react-google-maps/api";
+
+function Map() {
+  const center = useMemo(
+    () => ({ lat: 43.49413718447445, lng: -79.64774563864927 }),
+    []
+  );
+
+  return (
+    <GoogleMap zoom={10} center={center} mapContainerClassName="map-container">
+      <Marker position={center} />
+    </GoogleMap>
+  );
+}
 
 const Contact = () => {
+  const { isLoaded } = useLoadScript({
+    googleMapsApiKey: process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY,
+  });
+
+  if (!isLoaded) return <div>Loading...</div>;
   return (
     <div id="contact" className="w-full md:h-screen flex items-center py-8">
       <div className="max-w-[1240px] m-auto md:grid grid-cols-3 gap-8">
@@ -14,8 +35,8 @@ const Contact = () => {
             Windsor Dr, Oakville, ON L6J 7Y3.
           </p>
         </div>
-        <div className="w-full h-auto m-auto shadow-xl rounded-xl flex items-center p-4 hover:scale-105 ease-in duration-300 grid-cols-6">
-          <isLoaded />
+        <div>
+          return <Map />
         </div>
       </div>
     </div>
