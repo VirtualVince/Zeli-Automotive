@@ -2,9 +2,9 @@ import React from "react";
 
 const About = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-800 text-white">
-      <div className="max-w-2xl p-8 mx-auto bg-gray-900 rounded-xl">
-        <div className="max-w-[1240px] mx-auto md:grid grid-cols-1 gap-8">
+    <div className="flex justify-center">
+      <div className="max-w-2xl p-8 mx-4 bg-gray-900 rounded-xl text-white">
+        <div className="max-w-[1240px] mx-auto">
           <h1 className="text-3xl font-bold mb-6">
             Welcome to Zeli Automotive
           </h1>
@@ -59,6 +59,24 @@ const About = () => {
               </p>
             </div>
           </section>
+        </div>
+      </div>
+      <div className="mt-8 mx-4">
+        <h2 className="text-xl font-semibold mb-4">
+          Visit Us at Zeli Automotive
+        </h2>
+        <div className="relative aspect-w-16 aspect-h-9">
+          <iframe
+            title="Google Maps"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2894.4015468533116!2d-79.65032592383159!3d43.49395817111017!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b449f9eada4e7%3A0xee2f7dee43e4e9aa!2sZeli%20Automotive%20Ltd.!5e0!3m2!1sen!2sca!4v1709743897533!5m2!1sen!2sca"
+            width="100%"
+            height="100%"
+            className="absolute inset-0 rounded-xl"
+            style={{ border: 0 }}
+            allowFullScreen
+            loading="lazy"
+            referrerPolicy="no-referrer-when-downgrade"
+          ></iframe>
         </div>
       </div>
     </div>
