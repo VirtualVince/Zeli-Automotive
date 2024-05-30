@@ -1,12 +1,11 @@
 import React from "react";
 import LandingPage from "../../components/landingpage";
-
-import head from "next/head";
+import Head from "next/head";
 
 export default function Home() {
   return (
     <div>
-      <head>
+      <Head>
         <link
           rel="apple-touch-icon"
           sizes="180x180"
@@ -25,7 +24,7 @@ export default function Home() {
           href="/favicon-16x16.png"
         />
         <link rel="manifest" href="/site.webmanifest" />
-      </head>
+      </Head>
       <LandingPage />
     </div>
   );

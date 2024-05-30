@@ -1,8 +1,8 @@
 import React from "react";
-import About from "./components/about.jsx";
-import Services from "./components/services.jsx";
-import Testimonials from "./components/testimonials.jsx";
-import Footer from "./components/footer.jsx";
+import About from "./about.jsx";
+import Services from "./services.jsx";
+import Testimonials from "./testimonials.jsx";
+import Footer from "./footer.jsx";
 
 const landingpage = () => {
   return (
