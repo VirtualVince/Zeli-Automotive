@@ -2,7 +2,10 @@ import React from "react";
 
 const About = () => {
   return (
-    <div className="flex justify-center p-8 bg-gray-900 text-white rounded-xl">
+    <div
+      className="flex justify-center p-8 bg-gray-900 text-white rounded-xl"
+      id="about"
+    >
       <div className="max-w-2xl mx-4">
         <h1 className="text-4xl font-bold mb-6">Welcome to Zeli Automotive</h1>
         <section className="space-y-6">

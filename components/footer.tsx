@@ -10,7 +10,7 @@ const Footer = () => {
         <div className="flex flex-col justify-start items-start gap-6">
           <Image src={logo} alt="Logo" width={118} height={18} />
           <p className="text-base text-gray-700">
-            YAYBI 2023 <br />
+            Zeli Automotive 1995 <br />
             All rights reserved
           </p>
         </div>
@@ -32,7 +32,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="flex justify-between items-center flex-wrap mt-10 border-t border-gray-100 sm:px-16 px-6 py-10">
-        <p>@2024 YAYBI. All Rights Reserved</p>
+        <p>@2024 Zeli Automotive. All Rights Reserved</p>
         <div className="footer__copyrights-link">
           <Link href="/" className="text-gray-500">
             Privacy Policy

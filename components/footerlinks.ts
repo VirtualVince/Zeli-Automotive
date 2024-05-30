@@ -2,30 +2,32 @@ export const footerLinks = [
   {
     title: "About",
     links: [
-      { title: "How it works", url: "/" },
-      { title: "Featured", url: "/" },
-      { title: "Partnership", url: "/" },
-      { title: "Bussiness Relation", url: "/" },
+      { title: "How it works", url: "/about" },
+      {
+        title: "Partnership",
+        url: "https://www.instagram.com/zeliautomotive/",
+      },
     ],
   },
   {
     title: "Company",
     links: [
-      { title: "Events", url: "https://www.instagram.com/my_yaybi_way/" },
-      { title: "Blog", url: "https://www.instagram.com/my_yaybi_way/" },
-      { title: "Invite a friend", url: "/" },
+      { title: "Events", url: "https://www.instagram.com/zeliautomotive/" },
+      { title: "Blog", url: "https://www.instagram.com/zeliautomotive/" },
+      {
+        title: "Invite a friend",
+        url: "https://www.instagram.com/zeliautomotive/",
+      },
     ],
   },
   {
     title: "Socials",
     links: [
       {
-        title: "Youtube",
-        url: "https://www.youtube.com/channel/UCAsHezYIdKvd6ekEEDeGPMg",
+        title: "Yellowpages",
+        url: "https://www.yellowpages.ca/bus/Ontario/Oakville/Zeli-Automotive/101311008.html",
       },
-      { title: "Instagram", url: "https://www.instagram.com/my_yaybi_way/" },
-      { title: "Twitter", url: "/" },
-      { title: "Facebook", url: "/" },
+      { title: "Instagram", url: "https://www.instagram.com/zeliautomotive/" },
     ],
   },
 ];
