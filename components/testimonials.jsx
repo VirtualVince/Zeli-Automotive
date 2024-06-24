@@ -2,9 +2,9 @@ import React from "react";
 
 const testimonials = [
   {
-    name: "John Doe",
-    testimonial: "This is a testimonial.",
-    // add more properties as needed
+    name: "Kris",
+    testimonial:
+      "I have been going here for 5 years, to my complete satisfaction. This is what to expect: Quality workmanship which they stand behind, fair pricing, explanation and options, timely, courtesy. Owner Fatlum Zeli and his team of skilled mechanics have many years of experience with problem-solving and carrying out dependable repairs and service. Everything done with Fatlum’s basic way of operating: Integrity. Could not recommend more highly.",
   },
   // add more testimonials
 ];
