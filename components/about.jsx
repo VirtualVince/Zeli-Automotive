@@ -53,6 +53,18 @@ const About = () => {
               <br />
               Phone: 905-337-9346
             </p>
+            <div className="mt-4">
+              <iframe
+                title="Zeli Automotive Location"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5788.803093718181!2d-79.65033128827838!3d43.4939581709896!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b449f9eada4e7%3A0xee2f7dee43e4e9aa!2sZeli%20Automotive%20Ltd.!5e0!3m2!1sen!2sca!4v1719349159185!5m2!1sen!2sca"
+                width="600"
+                height="450"
+                style={{ border: 0 }}
+                allowFullScreen=""
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
           </div>
         </section>
       </div>

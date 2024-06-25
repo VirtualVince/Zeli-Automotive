@@ -11,7 +11,6 @@ const Footer = () => {
           <Image src={logo} alt="Logo" width={118} height={18} />
           <p className="text-base text-gray-700">
             Zeli Automotive 1995 <br />
-            All rights reserved
           </p>
         </div>
         <div className="footer__links">
