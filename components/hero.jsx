@@ -1,6 +1,7 @@
 import React from "react";
-import logo from "../public/ZeliLogo.jpg";
+import logo from "../public/assets/ZeliLogo.jpg";
 import backgroundImage from "../public/assets/background.png";
+import Image from "next/image";
 
 const hero = () => {
   return (
@@ -9,7 +10,7 @@ const hero = () => {
       style={{ backgroundImage: `url(${backgroundImage})` }}
     >
       <div className="text-center">
-        <img
+        <Image
           src={logo}
           alt="Zeli Automotive Logo"
           className="mx-auto mb-4"

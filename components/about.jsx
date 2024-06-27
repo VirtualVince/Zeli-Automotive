@@ -1,22 +1,18 @@
 import React from "react";
 import Services from "./services.jsx";
-import backgroundImage from "../public/assets/background.png";
+import backgroundImage from "../public/assets/ZeliLogo.jpg";
 import logo from "../public/assets/ZeliLogo.jpg";
 import Gallery from "./gallery.jsx";
+import Image from "next/image";
 
 const About = () => {
   return (
     <div
       className="flex flex-col md:flex-row justify-center items-center p-8 bg-white text-blue-900 rounded-xl"
       id="about"
-      style={{
-        backgroundImage: `url(${backgroundImage})`,
-        backgroundSize: "cover",
-      }}
     >
       <div className="max-w-2xl mx-4">
-        <img src={logo} alt="Zeli Automotive Logo" className="mx-auto" />
-        <h1 className="text-4xl font-bold mb-6 text-center text-[#3e37ff] shadow-lg">
+        <h1 className="text-4xl font-bold mb-6 text-center text-[#3e37ff] shadow-lg shadow-[#3e37ff] ">
           Welcome to Zeli Automotive
         </h1>
         <section className="space-y-6">
