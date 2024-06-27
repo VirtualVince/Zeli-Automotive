@@ -19,9 +19,9 @@ const Footer = () => {
             Zeli Automotive 1995 <br />
           </p>
         </div>
-        <div className="footer__links text-[#3e37ff]">
+        <div className="footer__links text-[#1a4df6]">
           {footerLinks.map((link) => (
-            <div key={link.title} className="footer__link text-[#3e37ff]">
+            <div key={link.title} className="footer__link text-[#1a4df6]">
               <h3 className="font-bold">{link.title}</h3>
               {link.links.map((item) => (
                 <Link key={item.title} href={item.url} className="text-black">

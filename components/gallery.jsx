@@ -26,7 +26,7 @@ export default function Gallery() {
           <img
             src={photo.src}
             alt="Gallery Image"
-            className="w-full h-auto m-auto shadow-xl shadow-[#3e37ff] rounded-xl flex items-right p-4 hover:scale-105 ease-in duration-300 grid-cols-6"
+            className="w-full h-auto m-auto shadow-xl shadow-[#1a4df6] rounded-xl flex items-right p-4 hover:scale-105 ease-in duration-300 grid-cols-6"
           />
         </div>
       ))}
