@@ -12,12 +12,12 @@ const About = () => {
       id="about"
     >
       <div className="max-w-2xl mx-4">
-        <h1 className="text-4xl font-bold mb-6 text-center text-[#3e37ff] shadow-lg shadow-[#3e37ff] ">
+        <h1 className="text-4xl font-bold mb-6 text-center text-[#1a4df6] shadow-md shadow-[#1a4df6]">
           Welcome to Zeli Automotive
         </h1>
         <section className="space-y-6">
           <div>
-            <h3 className="text-3xl font-semibold mb-3 text-accent">
+            <h3 className="text-3xl font-semibold mb-3 text-accent text-[#1a4df6]">
               Our History
             </h3>
             <p className="text-lg text-black">
@@ -29,7 +29,7 @@ const About = () => {
             </p>
           </div>
           <div>
-            <h3 className="text-3xl font-semibold mb-3 text-accent">
+            <h3 className="text-3xl font-semibold mb-3 text-accent text-[#1a4df6]">
               Mission and Values
             </h3>
             <p className="text-lg text-black">
@@ -40,7 +40,7 @@ const About = () => {
             </p>
           </div>
           <div>
-            <h3 className="text-3xl font-semibold mb-3 text-accent">
+            <h3 className="text-3xl font-semibold mb-3 text-accent text-[#1a4df6]">
               Expertise and Services
             </h3>
             <ul className="list-disc pl-6 text-lg text-black">
@@ -56,7 +56,7 @@ const About = () => {
           </div>
           <Gallery />
           <div>
-            <h3 className="text-3xl font-semibold mb-3 text-accent">
+            <h3 className="text-3xl font-semibold mb-3 text-accent text-[#1a4df6]">
               Contact Us
             </h3>
             <p className="text-lg text-black">
