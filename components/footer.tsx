@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { footerLinks } from "./footerlinks";
-import logo from "../public/ZeliLogo.jpg";
+import logo from "../public/assets/ZeliLogo.jpg";
 
 const Footer = () => {
   return (
