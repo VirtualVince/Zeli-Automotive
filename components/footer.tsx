@@ -8,21 +8,23 @@ const Footer = () => {
     <footer className="flex flex-col text-black-100 mt-5 border-t border-gray-100">
       <div className="flex max-dm:flex-col flex-wrap justify-between gap-5 sm:px-16 px-6 py-10">
         <div className="flex flex-col justify-start items-start gap-6">
-          <Image src={logo} alt="Logo" width={118} height={18} />
-          <p className="text-base text-gray-700">
+          <Image
+            src={logo}
+            alt="logo"
+            width={118}
+            height={18}
+            className="object-contain"
+          />
+          <p className="text-base text-black">
             Zeli Automotive 1995 <br />
           </p>
         </div>
-        <div className="footer__links">
+        <div className="footer__links text-[#3e37ff]">
           {footerLinks.map((link) => (
-            <div key={link.title} className="footer__link">
+            <div key={link.title} className="footer__link text-[#3e37ff]">
               <h3 className="font-bold">{link.title}</h3>
               {link.links.map((item) => (
-                <Link
-                  key={item.title}
-                  href={item.url}
-                  className="text-gray-500"
-                >
+                <Link key={item.title} href={item.url} className="text-black">
                   {item.title}
                 </Link>
               ))}
@@ -30,13 +32,13 @@ const Footer = () => {
           ))}
         </div>
       </div>
-      <div className="flex justify-between items-center flex-wrap mt-10 border-t border-gray-100 sm:px-16 px-6 py-10">
-        <p>@2024 Zeli Automotive. All Rights Reserved</p>
+      <div className="flex justify-between items-center flex-wrap mt-10 border-t border-gray-100 sm:px-16 px-6 py-10 text-black">
+        <p>Copyright 2023 Zeli Automotive. All Rights Reserved</p>
         <div className="footer__copyrights-link">
-          <Link href="/" className="text-gray-500">
+          <Link href="/" className="text-black">
             Privacy Policy
           </Link>
-          <Link href="/" className="text-gray-500">
+          <Link href="/" className="text-black">
             Terms of Use
           </Link>
         </div>

@@ -2,7 +2,7 @@ export const footerLinks = [
   {
     title: "About",
     links: [
-      { title: "How it works", url: "/about" },
+      { title: "Our brand", url: "https://www.instagram.com/zeliautomotive" },
       {
         title: "Partnership",
         url: "https://www.instagram.com/zeliautomotive/",

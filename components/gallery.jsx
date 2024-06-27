@@ -2,12 +2,13 @@
 import React from "react";
 
 const photos = [
-  { src: "/gallery/assets/zeliphoto1.png" },
-  { src: "/gallery/assets/zeliphoto2.png" },
-  { src: "/gallery/assets/zeliphoto3.png" },
-  { src: "/gallery/assets/zeliphoto4.png" },
-  { src: "/gallery/assets/zeliphoto5.png" },
-  { src: "/gallery/assets/zeliphoto6.png" },
+  { src: "/assets/zeliphoto1.png" },
+  { src: "/assets/zeliphoto2.png" },
+  { src: "/assets/zeliphoto3.png" },
+  { src: "/assets/zeliphoto4.png" },
+  { src: "/assets/zeliphoto5.png" },
+  { src: "/assets/zeliphoto6.png" },
+  { src: "/assets/zeliphoto7.png" },
 ];
 
 export default function Gallery() {

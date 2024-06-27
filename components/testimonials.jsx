@@ -1,42 +1,66 @@
 import React from "react";
 
 const testimonials = [
-  {
-    name: "Kris",
-    testimonial:
-      "I have been going here for 5 years, to my complete satisfaction. This is what to expect: Quality workmanship which they stand behind, fair pricing, explanation and options, timely, courtesy. Owner Fatlum Zeli and his team of skilled mechanics have many years of experience with problem-solving and carrying out dependable repairs and service. Everything done with Fatlum’s basic way of operating: Integrity. Could not recommend more highly.",
-  },
-  // add more testimonials
+  // Assuming testimonials array is filled with objects containing name and testimonial properties
 ];
 
-const Testimonials = () => {
+const EnhancedTestimonials = () => {
   return (
-    <div className="bg-gray-100 py-12">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h2 className="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">
-          Testimonials
-        </h2>
-        <div className="mt-10">
-          <ul className="grid grid-cols-1 gap-10 sm:grid-cols-2 lg:grid-cols-3">
-            {testimonials.map((testimonial) => (
-              <li key={testimonial.name}>
-                <div className="space-y-4">
-                  <div className="space-y-2">
-                    <div className="text-lg leading-6 font-medium space-y-1">
-                      <h3>{testimonial.name}</h3>
-                      <p className="text-indigo-600">
-                        {testimonial.testimonial}
-                      </p>
-                    </div>
-                  </div>
+    <div
+      className="elementor-element elementor-element-18472a6d e-con-full e-flex  e-con e-child lazyloaded animated fadeIn"
+      data-id="18472a6d"
+      data-element_type="container"
+      data-settings='{"content_width":"full","background_background":"classic","animation_delay":150}'
+      nitro-elementor-animation="animated fadeIn"
+    >
+      {testimonials.map((testimonial, index) => (
+        <React.Fragment key={index}>
+          <div
+            className="elementor-element elementor-element-66950d97 elementor-view-default elementor-widget elementor-widget-icon"
+            data-id="66950d97"
+            data-element_type="widget"
+            data-widget_type="icon.default"
+          >
+            <div className="elementor-widget-container">
+              <div className="elementor-icon-wrapper">
+                <div className="elementor-icon">
+                  <i aria-hidden="true" className="icon icon-quote2"></i>
                 </div>
-              </li>
-            ))}
-          </ul>
-        </div>
-      </div>
+              </div>
+            </div>
+          </div>
+          <div
+            className="elementor-element elementor-element-7c0e4bd3 elementor-widget__width-initial elementor-widget elementor-widget-testimonial"
+            data-id="7c0e4bd3"
+            data-element_type="widget"
+            data-widget_type="testimonial.default"
+          >
+            <div className="elementor-widget-container">
+              <div className="elementor-testimonial-wrapper">
+                <div className="elementor-testimonial-content">
+                  {testimonial.testimonial}
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            className="elementor-element elementor-element-3738233f elementor-widget elementor-widget-jkit_heading"
+            data-id="3738233f"
+            data-element_type="widget"
+            data-widget_type="jkit_heading.default"
+          >
+            <div className="elementor-widget-container">
+              <div className="jeg-elementor-kit jkit-heading  align-left align-tablet- align-mobile-">
+                <div className="heading-section-title  display-inline-block">
+                  <h4 className="heading-title">{testimonial.name}</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+        </React.Fragment>
+      ))}
     </div>
   );
 };
 
-export default Testimonials;
+export default EnhancedTestimonials;

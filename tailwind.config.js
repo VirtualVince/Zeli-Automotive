@@ -1,5 +1,17 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+  theme: {
+    extend: {
+      colors: {
+        accent: "#1A4DF6",
+        special: "#FE0606",
+        default: "#000000",
+      },
+      fontFamily: {
+        body: ["Inter", "sans-serif"],
+      },
+    },
+  },
   content: [
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
