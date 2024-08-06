@@ -16,13 +16,13 @@ const services = [
 
 const Services = () => {
   return (
-    <div className="bg-gray-100 py-12">
+    <div className="services p-4 md:p-8">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h2 className="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+        <h2 className="text-2xl md:text-3xl font-bold mb-6 text-center text-[#1a4df6]">
           Our Services
         </h2>
         <div className="mt-10">
-          <ul className="grid grid-cols-1 gap-10 sm:grid-cols-2 lg:grid-cols-3">
+          <ul className="list-disc pl-6 text-base md:text-lg text-black">
             {services.map((service) => (
               <li key={service.title}>
                 <div className="space-y-4">

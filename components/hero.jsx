@@ -9,17 +9,11 @@ const hero = () => {
       className="relative h-screen flex items-center justify-center"
       style={{ backgroundImage: `url(${backgroundImage})` }}
     >
-      <div className="text-center">
-        <Image
-          src={logo}
-          alt="Zeli Automotive Logo"
-          className="mx-auto mb-4"
-          style={{ maxWidth: "120px" }}
-        />
-        <h1 className="text-5xl font-bold text-white mb-4">
+      <div className="hero p-4 md:p-8 bg-blue-900 text-white text-center">
+        <h1 className="text-2xl md:text-4xl font-bold mb-4">
           Welcome to Zeli Automotive
         </h1>
-        <p className="text-lg text-white max-w-md mx-auto">
+        <p className="text-base md:text-lg">
           Your trusted partner in automotive excellence.
         </p>
       </div>
